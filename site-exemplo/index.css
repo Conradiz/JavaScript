@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+header{
+    color: azure;
+}
+section{
+    padding: 30px;
+    width: 300px;
+    background: wheat;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+}
