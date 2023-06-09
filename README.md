@@ -21,7 +21,7 @@ Lista Demarcada
 
 Lista de Tarefas:
 - [x] criar pagina principal
-- [ ] criar section 
+- [x] criar section 
 
 [Acesse meu GitHub](https://github.com/Conradiz)
 
