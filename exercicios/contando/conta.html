@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- incluir os icones do font-awesome da CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="ex001.css">
     <title>Document</title>
 </head>
-<body>
-    
+<body class="d-flex">
+
+    <nav class="menu">
+        <ul>
+            <li><a href="">Exercicios</a></li>
+            <li><a href="#">Exemplos</a></li>
+        </ul>
+    </nav>  
+    <div id="dados" class="container-form">
+        <div class="pacote-login">
+            <div class="titulo">
+                <span>Vamos contar</span>
+            </div>
+            <form action="" class="form-dados">
+                <div class="linha">
+                    <i class="fa-solid fa-play"></i>
+                    <input type="number" name="inicio" id="txti" placeholder="Inicio">
+                </div>
+                <div class="linha">
+                    <i class="fa-solid fa-stop"></i>
+                    <input type="number" name="fim" id="txtf" placeholder="Fim">
+                </div>
+                <div class="linha">
+                    <i class="fa-solid fa-forward-step"></i>
+                    <input type="number" name="passo" id="txtp" placeholder="Passo"> 
+                </div>
+                <div class="linha botao">
+                    <input type="button" value="calcular" onclick="contar()" >
+                </div>
+            <div id="res" class="resposta">
+                Aqui vai o resultado
+            </div>
+        </form>
+    </div>    
+    <footer class="roda">
+        <p>&copy; Curso em video </p>
+    </footer>
+    <script src="ex001.js"></script>
 </body>
 </html>
